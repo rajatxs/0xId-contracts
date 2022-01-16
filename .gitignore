@@ -1,0 +1,8 @@
+node_modules/
+abis/
+dist/
+build/
+temp/
+
+.env
+*.log

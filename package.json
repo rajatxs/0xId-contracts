@@ -1,0 +1,23 @@
+{
+  "name": "0xid-contracts",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rajat Sharma",
+    "email": "rxx175@gmail.com",
+    "url": "https://github.com/rajatxs"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "dev": "truffle develop",
+    "migrate:dev": "truffle migrate --network development",
+    "test:dev": "truffle test --network development"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1"
+  },
+  "dependencies": {
+    "bn.js": "^5.2.0"
+  }
+}
